@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title> Example </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+ 	<script type="text/javascript" src="1.js"></script>
+ 	<script src="jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+	<link rel="stylesheet" href="vendor/font-awesome.css">
+ 	<link rel="stylesheet" href="1.css">
+	<link rel="stylesheet" type="text/css" href="slider.min.css" />
+	<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+  	<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+
+  	<link href="hamburgers-master/dist/hamburgers.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="searchpopup">
+		<div class="searchpopupct">
+		<div class="searchpopup1">
+			<div class="close1" onclick='myFunction3()'></div>
+			<input class="searchpopup2" placeholder="Search our website">
+		</div>
+		<div class="searchpopup3">
+			<h2>Are you looking for...</h2>
+			<a href="">How to report a problem?</a>
+			<a href="">How to ship a parcel?</a>
+			<a href="">A missing postal code?</a>
+			<a href="">How to send flyers to customers?</a>
+			<a href="">How to track a parcel?</a>
+		</div>
+		</div>
+	</div>
+
+	<!-- Mobile version -->
+	<div class="mainnav">
+		<div class="insidemainnav">
+
+			<button class="hambuger" onclick="myFunction(this)">
+				<span class="bar1"></span>
+				<span class="bar2"></span>
+				<span class="bar3"></span>
+			</button>
+
+			<a href='' class="logo1"></a>
+			<a class="search1" onclick="myFunction2()"></a>
+		</div>
+	</div>
+
+	<!-- end nav -->
+	
+	<!-- Desktop nav -->
+	<div class="desktopnav">
+		<div class='desktopnav1'>
+			<div class="nav11">
+				<a href="">Support</a>
+				<a href="">About us</a>
+				<a href="">Shop</a>
+				<a href="">FR</a>
+			</div>
+			<div class="nav12">
+				<a href="">Sign in</a>
+			</div>
+		</div>
+		<div class="desktopnav2">
+			<div class="nav33trai">
+				<a href=""><img class='desklogo' src='https://www.canadapost.ca/cpc/assets/cpc/img/logos/cpc-main-logo.svg'></a>
+				<a href="">Personal</a>
+				<a href="">Business</a>
+				<a href="">My account</a>
+				<a href="">Tools</a>
+			</div>
+			<div class="nav33phai">
+				<a href="">Search</a>
+				<a onclick="myFunction2()" style='cursor: pointer;'><img src='https://www.canadapost.ca/cpc/assets/cpc/img/icons/search.svg'></a>
+			</div>
+		</div>
+	</div>
+
+	<!-- End Destop nav -->
+
+	<!-- Mobile menu -->
+
+<div class="menu1">
+	
+		<div class="tab2">
+		<div class="tablink">
+			<button class="btablink1 active" onclick="openCity1(event, 'London')">Personal</button>
+			<button class="btablink1" onclick="openCity1(event, 'Tokyo')">Business</button>
+			<button class="btablink1" onclick="openCity1(event, 'Paris')">My account</button>
+		</div>
+		<div class="btabcontent1" id='London'>
+			<div class="tabcontent11">
+				<div class="list1">
+					<div class="list11">
+						<a href="">Learn about personal services</a>
+					</div>
+
+					<div class="list11">
+						<a href="">Receiving</a>
+						<div class="arrowxanh"></div>
+					</div>
+
+					<div class="list11">
+						<a href="">Sending</a>
+						<div class="arrowxanh"></div>
+					</div>
+
+					<div class="list11">
+						<a href="">Money and government services</a>
+						<div class="arrowxanh"></div>
+					</div>
+
+					<div class="list11">
+						<a href="">Collectible stamps and coins</a>
+						<div class="arrowxanh"></div>
+					</div>
+				</div>
+
+				<div class="list2">
+					<div class="list22">
+						<a href="">Tools</a>
+					</div>
+
+					<div class="list22">
+						<a href="">Shop</a>
+					</div>
+
+					<div class="list22">
+						<a href="">About Us</a>
+					</div>
+
+					<div class="list22">
+						<a href="">Support</a>
+					</div>
+
+					<div class="list22">
+						<a href="">Francais</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="btabcontent1" id='Tokyo'>
+			<div class="tabcontent11">
+				<div class="list1">
+					<div class="list11">
+						<a href="">Learn about business services</a>
+					</div>
+
+					<div class="list11">
+						<a href="">Shipping</a>
+						<div class="arrowxanh"></div>
+					</div>
+
+					<div class="list11">
+						<a href="">Marketing</a>
+						<div class="arrowxanh"></div>
+					</div>
+
+					<div class="list11">
+						<a href="">E-commerce</a>
+						<div class="arrowxanh"></div>
+					</div>
+
+					<div class="list11">
+						<a href="">Small business</a>
+						<div class="arrowxanh"></div>
+					</div>
+
+					<div class="list11">
+						<a href="">Postal services</a>
+						<div class="arrowxanh"></div>
+					</div>
+				</div>
+
+				<div class="list2">
+					<div class="list22">
+						<a href="">Tools</a>
+					</div>
+
+					<div class="list22">
+						<a href="">Shop</a>
+					</div>
+
+					<div class="list22">
+						<a href="">About Us</a>
+					</div>
+
+					<div class="list22">
+						<a href="">Support</a>
+					</div>
+
+					<div class="list22">
+						<a href="">Francais</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="btabcontent1" id='Paris'>
+			<div class="tabcontent11" id='myaccountwidth'>
+				<form class="form1">
+					<div class='signin1'>
+						<div class="access">
+							<h5>Access your account</h5>
+							<h6>Username</h6>
+							<input class="username">
+							<div class="checkboxsignin">
+								<input type='checkbox' class="checkbox1">
+								<p>Remember my username on this device</p>
+							</div>
+							<h6>Password</h6>
+							<input class="username">
+							<button>Sign in</button>
+							<h4>Forgot <a href="">Username</a> or <a href="">Password?</a>
+						</div>
+					</div>
+
+					<div class="signin2">
+						<h5>Register online</h5>
+						<h6>Create an online account in a few easy steps!</h6>
+						<button>Register now</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+	</div>
+
+	</div>
+
+</div>
+	
+
+
+	<!-- End mobile menu -->
+
+	<div class="mainbackground"></div>
+	<div class="maintext1">Connecting communities in Canada for more than 250 years</div>
+
+	<div class="trackitem">
+		<form class="trackitem1">
+			<h2>Track</h2>
+		<input class="input1" placeholder="Track your item">
+		<button class='trackgo'></button>
+		</form>
+
+		<a class="getmore1" href="">Get more from Track</a>
+	</div>
+
+	<div class="tab2">
+		<div class="tabarrow"><div class="tabarrow1"></div></div>
+		<div class="tablink">
+			<button class="tablink1 active" onclick="openCity(event, 'London1')">Personal</button>
+			<button class="tablink1" onclick="openCity(event, 'Tokyo1')">Business</button>
+		</div>
+		<div class="tabcontentto">
+		<div class="tabcontent1" id='London1'>
+			<div class="tabcontent11">
+				<div class= 'anhcontent1'></div>
+				<div class= 'business2'></div>
+				<div class= 'business3'></div>
+				<div class="sending11">
+					<div class="business1">Personal</div>
+					<a href="" class="personalservices">Go to Personal services</a>
+
+					<div class="sending" >
+						<a href="" class="sending1">Sending</a>
+						<div class="arrowxanh"></div>
+					</div>
+					<div class="sending">
+						<a href="" class="sending1">Receiving</a>
+						<div class="arrowxanh"></div>
+					</div>
+					<div class="sending">
+						<a href="" class="sending1">Money and government services</a>
+						<div class="arrowxanh"></div>
+					</div>
+					<div class="sending">
+						<a href="" class="sending1">Collectible stamps and coins</a>
+						<div class="arrowxanh"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="tabcontent1" id='Tokyo1'>
+			<div class="tabcontent11">
+				<div class= 'anhcontent1' id='anhcontent2'></div>
+				<div class= 'business4'></div>
+				<div class="sending11">
+				<div class="business1">Business</div>
+				<a href="" class="personalservices">Go to Business services</a>
+				<div class="sending">
+					<a href="" class="sending1">Shipping</a>
+					<div class="arrowxanh"></div>
+				</div>
+				<div class="sending">
+					<a href="" class="sending1">Marketing</a>
+					<div class="arrowxanh"></div>
+				</div>
+				<div class="sending">
+					<a href="" class="sending1">E-commerce</a>
+					<div class="arrowxanh"></div>
+				</div>
+				<div class="sending">
+					<a href="" class="sending1">Small business</a>
+					<div class="arrowxanh"></div>
+				</div>
+				<div class="sending">
+					<a href="" class="sending1">Postal services</a>
+					<div class="arrowxanh"></div>
+				</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+	</div>
+
+	<div class="product1">
+		<div class="product11">
+			<h4>Shop for stamps, coins and supplies</h4>
+			<h5>Explore products or go right to our online Shop.</h5>
+		</div>
+
+		<div class="productslide0">
+		<div class="productslide1">
+		<div class="productslide">
+			<div class="productcardinside">
+				<div class="productcardinside1">
+				<div class="stamps">Stamps</div>
+				<img src="https://www.canadapost.ca/cpc/assets/cpc/uploads/photography/shop-items/2018-08-weather-wonders-souvenir-sheet.jpg">
+				<h6>Weather Wonders <br>Souvenir Sheet</h6>
+				<span>$4.25</span>
+				<a href="">Buy now</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="productslide">
+			<div class="productcardinside">
+				<div class="productcardinside1">
+					<div class="stamps">Prepaid envelopes</div>
+				<img src="https://www.canadapost.ca/cpc/assets/cpc/uploads/photography/shop-items/2018-08-xpresspost-prepaid-regional.jpg">
+				<h6>Xpresspost<sup>TM</sup> Prepaid<br>Regional Envelope -<br>Standard (smallest) size</h6>
+				<span>$12.35</span>
+				<a href="">Buy now</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="productslide">
+			<div class="productcardinside">
+				<div class="productcardinside1">
+					<div class="stamps">Stamps</div>
+				<img src="https://www.canadapost.ca/cpc/assets/cpc/uploads/photography/shop-items/2018-08-astronomy-booklet.jpg">
+				<h6>Astronomy: Booklet of 10 <br>Permanent<sup>TM</sup>domestic stamps</h6>
+				<span>$8.50</span>
+				<a href="">Buy now</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="productslide">
+			<div class="productcardinside">
+				<div class="productcardinside1">
+					<div class="stamps">Stamps</div>
+				<img src="https://www.canadapost.ca/cpc/assets/cpc/uploads/photography/shop-items/2018-03-from-far-wide-permanent-domestic-coil.jpg">
+				<h6>Coil of 100<br>Permanent<sup>TM</sup>domestic stamps</h6>
+				<span>$85</span>
+				<a href="">Buy now</a>
+				</div>
+			</div>
+		</div>
+		</div>
+
+
+		</div>
+
+	</div>
+
+	<div class="tips">
+		<div class="tipsinside">
+			<div class="tipinside1">
+			<h4>Tips, stories and expert advice</h4>
+			<p>Read the stories behind our stamps or learn shipping and direct mail strategies from industry experts.</p>
+			</div>
+
+			<div class="productslide1">
+				<div class="tipscard">
+				<div class='tipscard0'>
+					<div class='tipscard3'></div>
+
+					<div class="tipscardtext">
+					<a href="" class="magazine">Magazine</a>
+					<h3 class="tipscard2">Weather Wonders</h3>
+					<p class="paraincard">New stamps showcase Canada’s Weather Wonders in five stunning images</p>
+					<a href="" class="readblog">Read our blog</a>
+					</div>
+				</div>
+				</div>
+
+			<div class='tipscard'>
+				<div class="tipscard0">
+					<div class='tipscard3' id='tipscard33'></div>
+
+					<div class="tipscardtext">
+					<a href="" class="magazine">Magazine</a>
+					<h3 class="tipscard2">Sharks of Canada</h3>
+					<p class="paraincard">New Canada Post stamps celebrate the country's shark waters</p>
+					<a href="" class="readblog">Read our blog</a>
+					</div>
+				</div>
+				</div>
+
+			<div class='tipscard'>
+				<div class="tipscard0">
+					<div class='tipscard3' id='tipscard44'></div>
+
+					<div class="tipscardtext">
+					<a href="" class="magazine">Magazine</a>
+					<h3 class="tipscard2">Create a winning returns strategy for your business</h3>
+					<p class="paraincard">Product returns don't have to be a loss. With a solid strategy, they can be a hidden opportunity for your e-commerce business.</p>
+					<a href="" class="readblog">Read our blog</a>
+					</div>
+				</div>
+				</div>
+
+
+			</div>
+		</div>
+
+
+	</div>
+
+	<div class="takethepost">
+		<div class="takethepost1">
+			<div class="takethepost2">
+			<h3>Take the post office with you</h3>
+			<div class="trackparcels3">
+			<h5>Track your parcels, get delivery updates, send online purchases to a post office and more!</h5>
+			<div class="trackparcels2">
+				<a href=""><img src="https://www.canadapost.ca/cpc/assets/cpc/img/icons/apple-store-badge-EN.svg"></a>
+				<a href=""><img src="https://www.canadapost.ca/cpc/assets/cpc/img/icons/google-play-badge-EN.svg"></a>
+			</div>
+			</div>
+			</div>
+			<img class ='takethepost22' src="https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/cpc-mobile-en.png">
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+  <script type="text/javascript" src="slick-1.8.1//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="slick-1.8.1//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+
+
+
+
+
+
+
+
+
+	<div class="trackparcels">
+		<div class="trackparcels1">
+			<h5>Track your parcels, get delivery updates, send online purchases to a post office and more!</h5>
+			<div class="trackparcels2">
+				<a href=""><img src="https://www.canadapost.ca/cpc/assets/cpc/img/icons/apple-store-badge-EN.svg"></a>
+				<a href=""><img src="https://www.canadapost.ca/cpc/assets/cpc/img/icons/google-play-badge-EN.svg"></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="footertren">
+			<div class="footertren11">
+			<div class="followandfeedback">
+			<div class="follow">
+				<h5>Follow us</h5>
+				<div class="media1">
+					<a href=""><div id='md1'></div></a>
+					<a href=""><div id='md2'></div></a>
+					<a href=""><div id='md3'></div></a>
+					<a href=""><div id='md4'></div></a>
+					<a href=""><div id='md5'></div></a>
+				</div>
+			</div>
+
+			<div class="feedback">
+				<img src='https://www.canadapost.ca/cpc/assets/cpc/img/icons/toolbar-cg/feedback.svg'>
+				<a href="">Website feedback</a>
+			</div>
+		</div>
+
+			<div class="support">
+				<h5>Support</h5>
+				<a href="">Need help?</a>
+				<a href="">Contact us</a>
+			</div>
+			</div>
+			
+			<div class="footertren22">
+			<div class="corporate">
+				<h5>Corporate</h5>
+				<a href="">About us</a>
+				<a href="">Media centre</a>
+				<a href="">Careers</a>
+				<a href="">I'm an employee</a>
+				<a href="">Talent Zone</a>
+			</div>
+
+			<div class="blog">
+				<h5>Blogs</h5>
+				<a href="">Business matters</a>
+				<a href="">Canada Post Magazine</a>
+			</div>
+			</div>
+		</div>
+
+		<div class="footergiua">
+			<div class="footergiua1">
+			<a href="" class='firstchild'>Accessibility</a>
+			<a href="">Legal</a>
+			<a href="">Privacy</a>
+			<h5 class="canadapost">© Canada Post Corporation</h5>
+			</div>
+		</div>
+
+		<div class="footerduoi">
+			
+			<img src="https://www.canadapost.ca/cpc/assets/cpc/img/logos/gov-canada-logo.svg">
+		</div>
+	</div>
+
+	<div class="bottom">
+		
+		<div class="bottom1">
+			<a href=""><div id='bta1'></div></a>
+			<a href=""><div id='bta2'></div><h5>Find a postal code</h5></a>
+			<a href=""><div id='bta3'></div><h5>Find a rate</h5></a>
+			<a href=""><div id='bta4'></div><h5>Find a post office</h5></a>
+			<a href=""><div id='bta5'></div><h5>Forward your mail</h5></a>
+			<a href=""><div id='bta6'></div><h5>epost</h5></a>
+			<a href=""><div id='bta7'></div></a>
+		</div>
+		<div class="bottom2">
+		</div>
+	</div>
+
+	
+</body>
+</html>

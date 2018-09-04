@@ -1,0 +1,1419 @@
+*{margin: 0; padding: 0;}
+
+/*
+logo: https://www.canadapost.ca/cpc/assets/cpc/img/logos/cpc-main-logo.svg
+search: https://www.canadapost.ca/cpc/assets/cpc/img/icons/search.svg
+banner: https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/banner-serving-canadians-pride-excellence-delivery.jpg
+https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/banner-proudly-connecting-canadians.jpg
+curve: https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/brand-chevron-white.svg
+indicator: https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/scrolling-indicator.svg
+img2: https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/ctype-banner-personal.jpg
+img3: https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/ctype-banner-business.jpg
+3 items: 
+https://www.canadapost.ca/cpc/assets/cpc/uploads/photography/shop-items/2018-03-from-far-wide-permanent-domestic-coil.jpg
+https://www.canadapost.ca/cpc/assets/cpc/uploads/photography/shop-items/2018-06-sharks-permanent.jpg
+https://www.canadapost.ca/cpc/assets/cpc/uploads/photography/shop-items/2018-06-canada-150-coin-collection.jpg
+
+arrow: 
+https://www.canadapost.ca/cpc/assets/cpc/img/icons/chevron_mobile_right-blue.svg
+https://www.canadapost.ca/cpc/assets/cpc/img/icons/chevron_large_right.svg
+https://www.canadapost.ca/cpc/assets/cpc/img/icons/chevron_large_left.svg
+
+3 anh: 
+https://www.canadapost.ca/cpc/assets/cpc/uploads/photography/related/weather_blog_card_1152x840.jpg
+https://www.canadapost.ca/cpc/assets/cpc/uploads/photography/related/shark_blog_card_1152x840.jpg
+https://www.canadapost.ca/cpc/assets/cpc/uploads/photography/related/2018-02-20-create-winning-returns-strategy-business.jpg
+mobile:
+https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/cpc-mobile-en.png
+button: https://www.canadapost.ca/cpc/assets/cpc/img/icons/Back_to_top_button.svg
+
+bottom icon:
+https://www.canadapost.ca/cpc/assets/cpc/img/icons/toolbar-cg/track.svg
+https://www.canadapost.ca/cpc/assets/cpc/img/icons/toolbar-cg/find-postal-code.svg
+https://www.canadapost.ca/cpc/assets/cpc/img/icons/toolbar-cg/find-rate.svg
+https://www.canadapost.ca/cpc/assets/cpc/img/icons/toolbar-cg/find-post-office.svg
+https://www.canadapost.ca/cpc/assets/cpc/img/icons/toolbar-cg/mail-forwarding.svg
+https://www.canadapost.ca/cpc/assets/cpc/img/icons/toolbar-cg/epost.svg
+https://www.canadapost.ca/cpc/assets/cpc/img/icons/toolbar-cg/more-tools.svg
+
+MOBILE:
+https://www.canadapost.ca/cpc/assets/cpc/img/logos/cpc-logo.svg
+https://www.canadapost.ca/cpc/assets/cpc/img/icons/search.svg
+
+https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/track-label.svg
+https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/track-go.svg
+
+apps:
+https://www.canadapost.ca/cpc/assets/cpc/img/icons/apple-store-badge-EN.svg
+https://www.canadapost.ca/cpc/assets/cpc/img/icons/google-play-badge-EN.svg
+https://www.canadapost.ca/cpc/assets/cpc/img/logos/gov-canada-logo.svg
+*/
+
+.hambuger {
+	width: 26px;
+	height: 30px;
+	margin-top: 10px;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	position: relative;
+}
+
+.hambuger span {
+	width: 26px;
+	height: 1px;
+	background-color: black;
+	display: block;
+
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.mainnav {
+	width: 100%;
+	height: 65px;
+	display: flex;
+	justify-content: space-between;
+	border-top: 2px solid #CA261A;
+}
+
+.insidemainnav {
+	height: 65px;
+	width: 90%;
+	margin: auto;
+	justify-content: space-between;
+	display: flex;
+	padding: 5px;
+}
+
+.logo1 {
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/logos/cpc-logo.svg');
+	width: 50px;
+	height: 46px;
+	display: block;
+	background-size: cover;
+}
+
+.search1 {
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/search.svg');
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.mainbackground {
+	width: 100%;
+	height: 240px;
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/banner-connecting-communities-250-years.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.maintext1 {
+	width: 95%;
+	padding: 20px;
+	font-size: 25px;
+	margin: auto;
+	margin-top: -15px;
+	background-color: white;
+}
+
+.trackitem {
+	width: 100%;
+	height: 105px;
+	background-color: #F0F0F0;
+	padding-top: 23px;
+}
+
+.input1 {
+	width: 90%;
+	height: 55px;
+	margin-top: 0px;
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/track-label.svg');
+	background-repeat: no-repeat;
+	background-position: 10px;
+	border: 1px solid #A9A9A9;
+}
+
+input.input1::placeholder {
+	padding-left: 0px;
+	font-size: 20px;
+}
+
+input:focus {
+	outline: none;
+	border: 1px solid black;
+	-moz-box-shadow:    inset 0 0 1px #000000;
+	-webkit-box-shadow: inset 0 0 1px #000000;
+	box-shadow:         inset 0 0 1px #000000;
+	transition: 0.4s;
+}
+
+input.input1 {
+	padding-left: 70px;
+}
+
+.trackitem1 {
+	width: 90%;
+	height: 55px;
+	margin: auto;
+	display: flex;
+
+}
+
+.trackgo {
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    display: block;
+    border: 0.5px solid #A9A9A9;
+    border-left: none;
+    background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/track-go.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.anhcontent1 {
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/ctype-banner-personal.jpg');
+	height: 188px;
+	width: 90%;
+	margin: auto;
+	background-position: center;
+	background-size: cover;
+}
+
+#anhcontent2 {
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/ctype-banner-business.jpg');
+}
+
+.personalservices {
+	display: block;
+    border: 1px solid #0467C6;
+    border-radius: 4px;
+    width: 90%;
+    height: 58px;
+    margin: 30px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 21px;
+}
+
+.tablink {
+	height: 89px;
+	width: 90%;
+	margin: auto;
+	justify-content: space-between;
+	display: flex;
+	padding: 0px 20%;
+}
+
+.tablink button{
+	border: none;
+	background-color: transparent;
+	font-size: 20px;
+	height: 65px;
+	padding: 26px 10px;
+}
+
+.tablink1.active {
+	border-bottom: 2px solid black;
+}
+
+.sending {
+	height: 60px;
+	width: 90%;
+	margin: auto;
+	display: block;
+	border-bottom: 1px #F0F0F0 solid;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0px;
+}
+
+.sending:last-child {
+	border-bottom: none;
+}
+
+.sending1 {
+	font-size: 20px;
+}
+
+.arrowxanh {
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/chevron_mobile_right-blue.svg');
+	width: 10px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 17px;
+
+}
+
+#Tokyo {
+	display: none;
+}
+
+.product1 {
+	height: 730px;
+}
+
+.product11 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.productcardinside img {
+	width: 225px;
+	height: 225px;
+	margin: auto;
+}
+
+.productslide {
+	display: flex;
+	flex-direction: column;
+	height: 500px;
+	width: 100%;
+	margin: auto;
+}
+
+.productcardinside {
+	margin: 22px auto;
+	height: 400px;
+	text-align: center;
+	box-shadow: 0 3px 2rem rgba(206,206,206,0.5);
+	width: 80%;
+	align-items: center;
+}
+
+.productcardinside h6 {
+	font-size: 20px;
+	color: #262626;
+	font-weight: lighter;
+}
+
+.productcardinside a {
+	display: block;
+	border-radius: 3px;
+	border: 1px solid #0467C6;
+	padding: 10px 10px;
+	width: 130px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.product11 {
+	margin-bottom: 50px;
+}
+
+
+.active1 {
+	background-color: #0467C6 !important;
+}
+
+.dots1 ul {
+	display: flex;
+}
+
+.dots1 {
+	margin: 33px auto;
+	width: 100px;
+	align-items: center;
+}
+
+.tipscard3 {
+	height: 30vh;
+	width: 100%;
+	margin: auto;
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/uploads/photography/related/weather_blog_card_1152x840.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#tipscard33 {
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/uploads/photography/related/shark_blog_card_1152x840.jpg');
+}
+
+#tipscard44 {
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/uploads/photography/related/2018-02-20-create-winning-returns-strategy-business.jpg');
+}
+
+.tipscard0 {
+	margin: 22px auto;
+    box-shadow: 0 3px 2rem rgba(206,206,206,0.5);
+    width: 80%;
+    background-color: white;
+}
+
+.tips {
+	height: 880px;
+	background-color: #F0F0F0;
+}
+
+.tipinside1 {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding: 50px 0px 5px;
+}
+
+.tipscardtext {
+	width: 100%;
+	margin: auto;
+	line-height: 100px;
+	background-color: white;
+	padding: 5%;
+	transition: 0.4s;
+}
+
+.takethepost1 img {
+	margin: auto;
+	display: block;
+	width: 50vw;
+}
+
+.takethepost1 h3 {
+	text-align: center;
+	margin: 50px auto;
+	width: 90%;
+}
+
+.trackparcels1 {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	padding: 50px 0px;
+}
+
+.trackparcels1 a {
+	margin: 30px auto;
+	display: block;
+}
+
+.trackparcels {
+	background-color: #F0F0F0;
+}
+
+.bottom {
+	display: flex;
+	height: 55px;
+	width: 100%;
+	background-color: #CA261A;
+	position: fixed;
+	bottom: 0;
+	z-index: 3;
+}
+
+.bottom1 {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+.bottom1 img {
+	display: block;
+	height: 55px;
+	width: 29px;
+
+}
+
+.bottom1 a {
+	display: flex;
+	flex-direction: column;
+	border-right: 1px solid #D3584F;
+	justify-content: center;
+	align-items: center;
+    width: 3.3125rem;
+    height: 55px;
+}
+
+.bottom1 div{
+	background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+#bta1 {
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/toolbar-cg/track.svg');
+}
+
+#bta2 {
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/toolbar-cg/find-postal-code.svg');
+}
+
+#bta3 {
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/toolbar-cg/find-rate.svg');
+}
+
+#bta4 {
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/toolbar-cg/find-post-office.svg');
+}
+
+#bta5 {
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/toolbar-cg/mail-forwarding.svg');
+}
+
+#bta6 {
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/toolbar-cg/epost.svg');
+}
+#bta7 {
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/toolbar-cg/more-tools.svg');
+}
+
+.bottom1 a:last-child {
+	border-right: none !important;
+}
+
+button:focus {
+	outline: none;
+}
+
+.productslide1 {
+	justify-content: space-between;
+	padding: 10px 0px;
+}
+
+.slick-dots li button:before {
+	width: 11px !important;
+	height: 11px !important;
+	border-radius: 50%;
+	background-color: #CBCBCB;
+	list-style: none;
+	margin: 6px;
+    -webkit-font-smoothing: antialiased;
+    content: '' !important;
+    }
+
+.slick-dots li.slick-active button:before {
+    opacity: .75 !important;
+    color: #0467C6 !important;
+	}
+
+.slick-active button:before {
+	background-color: #0467C6 !important;
+}
+
+.sending:hover .arrowxanh{
+	position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {left:0px; top:0px;}
+
+    50%  {left:+10px; top:0px;}
+
+    100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {left:0px; top:0px;}
+
+    50%  {left:+10px; top:0px;}
+
+    100% {left:0px; top:0px;}
+}
+
+@-moz-keyframes exampless { 100% { -moz-transform: rotate(35deg); } }
+@-webkit-keyframes exampless { 100% { -webkit-transform: rotate(35deg); } }
+@keyframes exampless { 100% { -webkit-transform: rotate(35deg); transform:rotate(35deg); } }
+
+
+.menu1 {
+	display: none;
+	position: fixed;
+	z-index: 5;
+	left: 0;
+	top: 67px;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	-webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+}
+
+.scrollhid {
+	overflow-y: hidden;
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+.menu4 {
+	display: block;
+}
+
+.menu5 {
+	display: block !important;
+}
+
+.hambuger {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-2px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-3px, -8px);
+}
+
+#Paris {
+	display: none;
+}
+
+#Tokyo {
+	display: none;
+}
+
+.menu1 .tablink {
+	padding: 0% 2%;
+}
+
+.menu1 .btablink1 {
+	font-size: 22px;
+	color: #9F9F9F;
+}
+
+.menu1 .btablink1.active {
+	border: none;
+	font-weight: bold;
+	color: black;
+}
+
+.list1 {
+	background-color: #F0F0F0;
+	padding: 20px 0px;
+}
+
+.list1 a {
+	color: #4A4A4A;
+	font-size: 22px;
+	padding: 10px 20px;
+}
+
+.list11 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.list11 .arrowxanh {
+	filter: grayscale(100%);
+	margin: 18px 13px;
+}
+
+.list11:hover, .list22:hover {
+	background-color: #D9D9D9;
+	transition: 0.4s;
+}
+
+.list11 a:hover, .list22 a:hover {
+	text-decoration: none;
+}
+
+.list22 a {
+	color: #4A4A4A;
+	font-size: 22px;
+	padding: 10px 20px;
+}
+
+.list22 {
+	display: flex;
+}
+
+.signin1 {
+	background-color: #F0F0F0;
+	display: flex;
+	padding: 5% 5%;
+	flex-direction: column;
+}
+
+.checkboxsignin {
+	display: flex;
+}
+
+.form1 button {
+	display: block;
+	border: none;
+	border-radius: 3px;
+	background-color: #0467C6;
+	width: 100%;
+	margin: 20px 0px;
+	padding: 20px 0px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.signin2 {
+	padding: 5% 5%;
+}
+
+.username {
+	width: 100%;
+	height: 60px;
+	border-radius: 3px;
+	border: 1px solid #CBCBCB;
+	padding-left: 30px;
+	margin: 0px 0px 20px;
+}
+
+.checkbox1 {
+	width: 20px;
+	height: 20px;
+}
+
+.checkboxsignin p {
+	margin-left: 20px;
+	color: #373737;
+	font-size: 17px;
+}
+
+.form1 h5 {
+	font-size: 23px;
+	color: #3A3A3A;
+	font-weight: 350;
+	margin: 20px 0px;
+}
+
+.form1 h6 {
+	font-size: 18px;
+	font-weight: 600;
+	color: #333333;
+}
+
+#myaccountwidth {
+	height: 1000px;
+}
+
+.footer {
+	background-color: #666666;
+	padding-bottom: 50px;
+}
+
+.footertren {
+	padding: 40px 5% 20px 5%;
+}
+
+.footer h5 {
+	color: white;
+}
+
+.footer a {
+	color: white;
+	padding: 15px 0px;
+	font-size: 18px;
+}
+
+.feedback img {
+	display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.5rem;
+    vertical-align: top;
+}
+
+#md1 {
+	background-image: url('')
+}
+
+#md2 {
+	background-image: url('')
+}
+
+#md3 {
+	background-image: url('')
+}
+
+#md4 {
+	background-image: url('')
+}
+
+#md5 {
+	background-image: url('')
+}
+
+.footertren a {
+	display: block;
+}
+
+.footergiua {
+	
+}
+
+.footergiua a {
+	border-left: 1px solid white;
+	padding: 0px 20px 0px;
+}
+
+.firstchild {
+	border-left: none !important;
+}
+
+.footergiua {
+	height: 100px;
+	border-top: 1px solid #A3A3A3;
+	border-bottom: 1px solid #A3A3A3;
+	justify-content: center;
+	padding: 20px 0px;
+}
+
+.footergiua1 {
+	margin: auto;
+	width: 90%;
+	text-align: center;
+}
+
+.footer h5 {
+	font-size: 27px;
+	margin: 20px 0px;
+	font-weight: 300;
+}
+
+.feedback {
+	display: flex;
+}
+
+.footerduoi {
+	width: 78px;
+	margin: 30px auto;
+}
+
+.media1 {
+	display: flex;
+}
+
+.canadapost {
+	font-size: 20px !important;
+	text-align: center;
+}
+
+#Tokyo1 {
+	display: none;
+}
+
+.getmore1 {
+	display: none;
+
+}
+
+.getmore2 {
+	opacity: 0;
+}
+
+.slick-next {
+	right: 25px !important;
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/chevron_large_right.svg') !important;
+	background-size: cover !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	height: 35px !important;
+}
+
+.slick-prev {
+	left: 25px !important;
+	z-index: 9;
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/chevron_large_left.svg') !important;
+	background-size: cover !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	height: 35px !important;
+}
+
+.slick-prev:before, .slick-next:before {
+	content: none !important;
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: black !important;
+    -webkit-font-smoothing: antialiased;
+	
+}
+
+.trackparcels3 {
+	display: none;
+}
+
+.desktopnav {
+	display: none;
+}
+
+.trackitem1 h2 {
+	display: none;
+}
+
+.bottom2 {
+	width: 0%;
+}
+
+.bottom1 h5 {
+	display: none;
+}
+
+.business1 {
+	display: none;
+}
+
+.business2, .business3, .business4, .stamps, .paraincard {
+	display: none;
+}
+
+.productcardinside1 span {
+	font-weight: bold;
+	color: black;
+	font-size: 20px;
+}
+
+.searchpopup {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	background-color: white;
+	overflow: auto;
+}
+
+.searchpopup3 {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.searchpopup3 a {
+	font-size: 21px;
+	color: #222222;
+	margin-top: 30px;
+	font-weight: 350;
+}
+
+.searchpopup3 h2 {
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.searchpopup2 {
+	height: 64px;
+	width: 80%;
+	border: none;
+	margin-left: 10px;
+}
+.searchpopup1 {
+	display: flex;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.close1 {
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/Cancel_mobile.svg');
+	height: 64px;
+	width: 64px;
+	background-size: 17px 17px;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.searchpopup2:focus {
+	border: none;
+	box-shadow: none;
+}
+
+.searchpopup2::placeholder {
+	font-size: 20px;
+}
+
+
+@media only screen and (min-width: 800px) {
+	.anhcontent1 {
+		float: right;
+		height: 355px;
+		width: 50%;
+	}
+
+	.sending11 {
+		width: 45%;
+	}
+
+	.tabcontent11 {
+		padding-left: 5%;
+	}
+	
+	.getmore1 {
+		display: block;
+		color: #0467C6;
+		font-size: 21px;
+		line-height: 48px;
+		font-weight: 300;
+	}
+	
+	.trackitem1 {
+		width: 50%;
+		margin: 0px 6%;
+	}
+	.trackitem {
+		display: flex;
+	}
+
+	.productslide1 {
+	padding: 10px 20px;
+	}
+	
+	.tipscard0:hover .tipscardtext {
+	transform: translateY(-20%);
+	transition: 0.4s;
+	}
+
+	.readblog {
+		opacity: 0;
+	}
+
+	.tipscard0:hover .readblog {
+		opacity: 1;
+		transition: 0.4s;
+	}
+
+	.footertren {
+		display: flex;
+	}
+
+	.footertren11 {
+		width: 50%;
+	}
+	
+	.takethepost1 img {
+		width: 32vw;
+		margin: 44px 20px 0px 8%;
+		height: 20%;
+	}
+
+	.takethepost1 {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	
+	.trackparcels {
+		float: right;
+	}
+
+	.trackparcels3 {
+		display: block;
+	}
+	.trackparcels1 {
+		display: none;
+	}
+
+	.trackparcels3 img{
+		width: 150px;
+		height: auto;
+		margin: 45px auto;
+	}
+
+	.trackparcels3 h5 {
+		width: 80%;
+		margin: auto;
+	}
+
+	.takethepost2 {
+		padding-top: 2%;
+	}
+
+	.mainbackground {
+		height: 400px;
+	}
+	.searchpopup {
+		background-color: rgba(0, 0, 0, 0.4);
+	    -webkit-animation-name: fadeIn; /* Fade in the background */
+	    -webkit-animation-duration: 0.4s;
+	    animation-name: fadeIn;
+	    animation-duration: 0.4s;		
+	}
+	@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+	}
+
+	@keyframes fadeIn {
+	    from {opacity: 0} 
+	    to {opacity: 1}
+	}
+	.searchpopupct {
+		background-color: white;
+		width: 80%;
+		margin: auto;
+		top: 200px;
+		position: absolute;
+		left: 10%;
+	}
+	.searchpopup3 {
+		padding: 20px 70px;
+	}
+
+}
+
+@media only screen and (min-width: 1280px) {
+	
+	.mainnav {
+		display: none;
+	}
+	.mainbackground {
+		height: 600px;
+	}
+	.desktopnav {
+		display: block;
+	}
+	.desktopnav1 {
+		display: flex;
+		justify-content: flex-end;
+		border-top: 2px solid #CA261A;
+		border-bottom: 1px solid #CBCBCB;
+	}
+	.desktopnav1 a {
+		font-size: 18px;
+		margin: 10px 20px;
+		color: #6A6A6A;
+		font-weight: 400;
+	}
+	.desktopnav2 {
+		display: flex;
+		justify-content: space-between;
+	}
+	.desklogo {
+		width: 165px;
+		height: auto;
+	}
+	.desktopnav2 a {
+		color: #333333;
+		font-size: 20px;
+		margin: 10px 25px;
+		font-weight: 450;
+	}
+	.nav12, .nav33phai {
+		border-left: 1px solid #CBCBCB;
+	}
+
+	.nav11, .nav12 {
+		padding: 10px;
+	}
+	
+	.nav33trai, .nav33phai {
+		padding: 20px;
+	}
+
+	.maintext1 {
+		background-color: transparent;
+		top: 330px;
+		left: 10%;
+		color: white;
+		position: absolute;
+		letter-spacing: 0.5px;
+		line-height: 3rem;
+		width: 50%;
+		font-size: 47px;
+		font-weight: 300;
+	}
+
+	.trackitem {
+		background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/brand-chevron-white.svg');
+		background-color: transparent;
+		background-size: cover;
+		position: absolute;
+		top: 625px;
+	}
+
+	.trackitem1 {
+		padding-left: 60px;
+	}
+
+	.input1 {
+		background-image: none;
+		padding-left: 10px !important;
+	}
+	
+	.trackitem1 h2 {
+		display: block;
+	    background-image: url(https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/track-label.svg);
+	    background-position: 3px;
+	    background-repeat: no-repeat;
+	    padding: 4px 36px 0px 76px;
+	    font-size: 37px;
+	    font-weight: 400;
+	    line-height: 40px;
+	}
+	
+	.bottom {
+		background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/brand-chevron-red.svg');
+		background-size: cover;
+		height: 135px;
+		background-color: transparent;
+		background-position-x: -1200px;
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 730px;
+	}
+	.bottom2 {
+		background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/chevron-group.svg');
+		background-position-x: 20px;
+		width: 30%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 150px;
+	}
+	
+	.bottom1 {
+		height: 100%;
+		width: 80%;
+		padding-left: 10%;
+	}
+
+	.bottom1 a {
+		height: 100%;
+		width: 24%;
+		background-size: 40px;
+		border-right: none;
+		border-left: 1px solid #D3584F;
+	}
+	.bottom1 a:first-child, .bottom1 a:last-child {
+		display: none;
+	}
+
+	.bottom1 div {
+		width: 40px;
+		height: 40px;
+		margin: 6px 0px 11px;
+	}
+	.bottom1 h5 {
+		display: block;
+		text-align: center;
+		color: white;
+		font-size: 21px;
+		font-weight: 400;
+	}
+	.bottom1 a:hover {
+		text-decoration: none;
+		background-color: #AA2319;
+	}
+	.tab2 {
+		padding-top: 180px;
+	}
+	.tabarrow1 {
+		margin: auto;
+		width: 30px;
+		background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/scrolling-indicator.svg');
+		height: 20px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		position: relative;
+	    -webkit-animation-name: examplez; /* Safari 4.0 - 8.0 */
+	    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+	    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+	    animation-name: examplez;
+	    animation-duration: 1s;
+	    animation-iteration-count: infinite;
+	}
+
+	/* Safari 4.0 - 8.0 */
+	@-webkit-keyframes examplez {
+	    0%   {bottom:0px;}
+
+	    50%  {bottom:+15px;}
+
+	    100% {bottom:0px;}
+	}
+
+	/* Standard syntax */
+	@keyframes examplez {
+	    0%   {bottom:0px; }
+
+	    50%  {bottom:+15px;}
+
+	    100% {bottom:0px;}
+	}
+	.productslide1 {
+		width: 80%;
+		margin: auto;
+	}
+	.productcardinside {
+		box-shadow: none;
+		width: 330px;
+		height: 500px;
+		padding-top: 100px;
+	}
+	.productcardinside:hover {
+		box-shadow: 0 3px 2rem rgba(206,206,206,0.5);
+		overflow: hidden;
+	}
+
+	.productcardinside:hover .productcardinside1{
+		transform: translateY(-30%);
+		transition: 0.4s;
+	}
+
+	.productcardinside1 {
+		transition: 0.4s;
+	}
+	.tablink {
+		display: none;
+	}
+	#Tokyo1 {
+		display: block;
+	}
+	.menu1 {
+		display: none;
+	}
+	.scrollhid {
+		overflow-y: auto;
+	}
+
+	.tabcontent11 {
+		display: flex;
+		flex-direction: column;
+		padding: 40px 0px;
+	}
+
+	.tabcontent1 {
+		width: 50%;
+	}
+	.anhcontent1 {
+		width: 100%;
+		height: 515px;
+	}
+
+	.tabcontentto {
+		display: flex;
+	}
+	#Tokyo1 .sending11 {
+		border-left: 1px solid #CBCBCB;
+	}
+	#London1 .sending11 {
+		margin-left: auto;
+		margin-right: 0px;
+	}
+	.business1 {
+		display: block;
+		font-size: 35px;
+		font-weight: 400;
+		color: #3D3D3D;
+		padding-left: 20px;
+	}
+	.sending11 {
+		width: 60%;
+		padding: 20px;
+	}
+	.business2, .business3, .business4 {
+		display: block;
+	}
+	.business2 {
+		background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/brand-chevron-grey.svg');
+		width: 17%;
+	    height: 60px;
+	    left: 6%;
+	    top: 1447px;
+	    position: absolute;
+	    z-index: 5;
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	}
+	.business3 {
+		background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/home-page/brand-chevron-white.svg');
+		height: 88px;
+		width: 88%;
+		right: 0%;
+		position: absolute;
+		top: 1398px;
+    	overflow: hidden;
+	}
+
+	.productcardinside1 a, .productcardinside1 span {
+		opacity: 0;
+		transition: 0.4s;
+	}
+
+	.productcardinside:hover .productcardinside1 a {
+		opacity: 1;
+		transition: 0.4s;
+	}
+
+	.productcardinside:hover .productcardinside1 span {
+		opacity: 1;
+		transition: 0.4s;
+	}
+
+	.stamps {
+		display: block;
+		transition: 0.4s;
+		font-size: 25px;
+		font-weight: 400;
+	}
+
+	.productcardinside:hover .stamps {
+		opacity: 0;
+		transition: 0.4s;
+	}
+	.tipscard0 {
+		width: 342px;
+		height: 578px;
+	}
+
+	.takethepost22 {
+		width: 20vw !important;
+	}
+	.takethepost1 {
+		justify-content: center;
+	}
+
+	.footertren11, .footertren22 {
+		display: flex;
+		justify-content: space-around;
+		width: 50%;
+	}
+	.followandfeedback {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.paraincard {
+		display: block;
+		opacity: 0;
+		transition: 0.4s;
+		line-height: 24px;
+		font-size: 18px;
+		margin-top: 53px;
+	}
+
+	.tipscard0:hover .paraincard {
+		opacity: 1;
+		transition: 0.4s;
+	}
+	
+}
+
